@@ -1,0 +1,24 @@
+#clchart .title {
+	font-family: "National-LFSN-Semibold" !important;
+}
+
+#clchart .subtitle {
+	font-family: "National-LFSN-Book" !important;
+}
+
+#clchart .infobox {
+	font-family: "Open Sans" !important;
+}
+
+#clchart .xaxis text {
+	font-family: "Open Sans" !important;
+}
+
+#clchart .xaxis-title {
+	font-family: "Open Sans" !important;
+}
+
+#clchart .yaxis text {
+	font-family: "Open Sans" !important;
+}
+

@@ -1,0 +1,33 @@
+{
+  "name": "clcharts-d3-bar-chart",
+  "version": "0.0.1",
+  "description": "An interactive and responsive bar chart in the House of Commons Library style.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oliver Hawkins",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "d3": "^5.16.0",
+    "eslint": "^6.8.0",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.9.2",
+    "@babel/runtime-corejs3": "^7.9.2",
+    "base64-inline-loader": "^1.1.1"
+  }
+}
