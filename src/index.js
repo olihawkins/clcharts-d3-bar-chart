@@ -75,8 +75,7 @@ function drawGraphic(settings, data, containerWidth, scale) {
         .style("font-size", `${settings.titleSize * scale}pt`)
         .style("fill", chartColors.title);
 
-
-    // Title
+    // Subtitle
     vis.append("text")
         .attr("class", "subtitle")
         .text(settings.subtitleText)
